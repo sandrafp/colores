@@ -1,0 +1,50 @@
+/*
+Breakpoints: 
+320px - 375px; GREEN
+376px - 667px; YELLOW
+667px - 1024px; RED
+1024px - 1600px; BLUE
+*/
+.caja{
+	text-align: center;
+}
+.caja img {
+	max-width: 100%;
+}
+
+@media (max-width: 319px){
+
+	body {
+		background-color: black;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+
+	body {
+		background-color: green;
+	}
+}
+
+@media (min-width: 376px) and (max-width: 667px) {
+
+	body {
+		background-color: yellow;
+	}
+}
+
+@media (min-width: 668px) and (max-width: 1024px) {
+
+	body {
+		background-color: red;
+	}
+}
+
+@media (min-width: 1025px) and (max-width: 1600px) {
+
+	body {
+		background-color: black;
+	}
+}
+
+
